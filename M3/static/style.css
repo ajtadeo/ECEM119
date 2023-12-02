@@ -1,0 +1,15 @@
+.chart-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chart {
+  flex: 0 0 calc(33.33% - 10px); /* Adjust the width as needed, e.g., for equal thirds */
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+}
